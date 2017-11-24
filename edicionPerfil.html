@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar tu Perfil</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body> 
+    <header>
+        <div class="wrapper">
+            <div class="cabecera">
+               
+                <div class="logotipo">
+                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <!--poner en subir.html el nombre de la página-->
+                <div class="subir">
+                   
+                    <a href="upload_product.html"><img src="img/subir.png" alt="subir"></a>
+                </div>
+                
+                <div class="usuario">
+                   <!--poner en perfil.html el nombre de la página-->
+                    <a href="ownProfile.html"><img src="img/usuario.png" alt="usuario"></a>
+                </div>
+            </div>
+            <div class="buscador centrar">
+                <div>
+                    <form action="resultadoBusqueda.html" method="get">
+                        <input type="text" placeholder="buscar">
+                        <input type="button" value="Buscar">
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+<div class="wrapper">
+    <main>
+        <div class="centerEdicion">   
+            <h3 class="izqEdicion verde">Tu Perfil</h3>
+            <h3 class="drcEdicion verde">Editar Información</h3>
+        </div>
+
+        <div class="wrapper"> 
+        <label for="username" class="registro">Pepito24</label>   
+        <input type="text" maxlength="20" placeholder="Nuevo Username" name="username" class="registro2" />
+ 
+        <label for="name" class="registro">Pepito Grillo</label>
+        <input type="text" placeholder="Nuevo Nombre y Apellido" name="name" class="registro2" />    
+
+        <span class="registro3">Preferencias</span>
+
+        <div class="registro3">
+
+        <label for="preferencias">Moda</label>
+        <input type="checkbox" id="checkbox" name="checkbox" value="1" /> <label for="preferencias">Deporte</label>
+        <input type="checkbox" id="checkbox" name="checkbox" value="1" /> <label for="preferencias">Electrónica</label>
+        <input type="checkbox" id="checkbox" name="checkbox" value="1" />     
+
+        </div> 
+
+        <label for="email" class="registro">prueba@falso.com</label>
+        <input type="email" name="email" placeholder="Nuevo email" class="registro2" /> 
+
+        <label for="password" class="registro">Nueva Contraseña</label>
+        <input type="password" name="userpass" maxlength="20" class="registro2" required />  
+
+        <span class="registro_">Foto Perfil (max 250Kb)</span>   
+        <input type="file" name="pic" accept="image/*" class="registro2" />   
+
+
+        <input type="submit" class="iconoRegistro" />       
+
+        </div>
+    </main>    
+</div>  
+
+      <footer>
+        <div class="wrapper">
+            <div class="pie">
+               <div class="rrss">
+                    <a href="https://www.facebook.com/"><img src="img/fb.png" alt="fb"></a>
+                    <a href="https://www.instagram.com/?hl=es"><img src="img/instagram.png" alt="inst"></a>
+                </div>
+                <div class="datosEmpresa">
+                   
+                        <a href="politicaLegal.html">
+                            <p>Política Legal</p>
+                        </a>   
+  
+                        <a href="Privacidad.html">
+                            <p>Privacidad</p>
+                        </a>
+                         <a href="politicaCookies.html">
+                            <p>Política de Cookies</p>
+                        </a>
+                    
+                        <a href="quienesSomos.html">
+                            <p>Quiénes Somos</p>
+                        </a> 
+                      
+                </div>
+            
+            </div>
+        </div>
+    </footer>  
+</body>
+</html>
