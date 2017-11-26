@@ -12,7 +12,7 @@
             <div class="cabecera">
                
                 <div class="logotipo">
-                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                    <a href="indexPublico.html"><img src="img/logo.png" alt="logo"></a>
                 </div>
                 <!--poner en subir.html el nombre de la página-->
                 <div class="subir">
@@ -38,12 +38,12 @@
     
 <!--    main -->
     <main class="verde">
-        <div class="wrapper">
+       <div class="wrapper">
             <div class="upload_product1">
                <form action="subidaCorrecta.php">
                     <div class="upload_product1_Queofreces">
-                    <h3>¿Qué ofreces?</h3>
-                </div>
+                        <h3>¿Qué ofreces?</h3>
+                    </div>
                 <div class="upload_product1_Queofreces1" >
                     <label for="product">Producto</label>
                     <div class="upload_product1_Queofreces1_check">
@@ -57,7 +57,79 @@
                        <input type="checkbox" id="service" value="1"> 
                     </div>
                 </div>
+            
+            <div>
+                <div class="name_product">
+                   <input type="text" placeholder="Nombre de producto/servicio" required>
+                </div>
             </div>
+            
+            <div>
+               <div class="categorias_">
+               <label for="Categorías">Categorías</label>
+                <div class="categorias_1">
+                    <select name="Categorías" id="categorías">
+                       <option value="0">Seleccione un campo</option>
+                        <option value="1">Deportes</option>
+                        <option value="2">Montaña</option>
+                        <option value="3">Consolas y videojuegos</option>
+                        <option value="4">Películas</option>
+                        <option value="5">Muebles</option>
+                        <option value="6">Libros</option>
+                        <option value="7">Accesorios</option>
+                        <option value="8">Juguetes</option>
+                        <option value="9">Electrónica</option>
+                        <option value="10">Moda</option>
+                    </select>
+                </div>
+                </div>
+            </div>
+            <div class="description_1">
+               <label for="Descripción">Descripción</label>
+                <div>
+                   <textarea name="Descripción" id="Ddescripción" cols="40" rows="10" placeholder="Escribe una descripción de tu producto/servicio"></textarea>
+                    
+                </div>
+            </div>
+            <div class="titulo_subir_fotos">
+                <h3>Subir fotografías</h3>
+            </div>
+            <div class="file_foto_">
+               <label for="picture"></label>
+                <div>
+                    <input type="file" name="picture" accept="image/*" />
+                </div>
+                <div><input type="file" name="picture" accept="image/*" /></div>
+                <div><input type="file" name="picture" accept="image/*" /></div>
+            </div>
+            <div class="submit_">
+                <label for="submit"></label>
+                <div>
+                    <input type="submit" id="submit" name="submit">
+                </div>
+            </div>
+               </form>
+               
+        </div><div class="wrapper">
+            <div class="upload_product1">
+               <form action="subidaCorrecta.php">
+                    <div class="upload_product1_Queofreces">
+                        <h3>¿Qué ofreces?</h3>
+                    </div>
+                <div class="upload_product1_Queofreces1" >
+                    <label for="product">Producto</label>
+                    <div class="upload_product1_Queofreces1_check">
+                       <input type="checkbox" id="product" value="1"> 
+                    </div>
+                </div>
+                
+                <div class="upload_product1_Queofreces2">
+                    <label for="service">servicio</label>
+                    <div class="upload_product1_Queofreces2_check">
+                       <input type="checkbox" id="service" value="1"> 
+                    </div>
+                </div>
+            
             <div>
                 <div class="name_product">
                    <input type="text" placeholder="Nombre de producto/servicio" required>
@@ -110,8 +182,12 @@
             </div>
                </form>
                
-        </div>
+        </div> 
     </main>
+       
+       
+       
+       
         <footer>
         <div class="wrapper">
             <div class="pie">

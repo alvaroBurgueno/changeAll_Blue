@@ -64,7 +64,10 @@ a img{
 div > img{
     width: 250px;;
 }
-
+a{
+    color: black;
+    text-decoration: none;
+}
 
 /*Inicio CSS Arturo*/
 .photo_ {
