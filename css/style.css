@@ -1,3 +1,11 @@
+@media screen (max-width: 480px){
+    .wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+    .cuadricula_1
+}
+
 header, footer{
     width: 100%;
     float: left;
@@ -5,11 +13,12 @@ header, footer{
     margin-top: 30px;
 }
 main{
+    
     width: 100%;
 }
 
 .wrapper{
-    width: 480px;
+    width: 75%;
     margin: 0 auto;
 }
 .cabecera{
@@ -376,10 +385,6 @@ photo_2_ img {
     margin: 0;
 }
 
-.wrapper {
-    width: 480px;
-    margin: 0 auto;
-}
 
 
 
@@ -499,6 +504,8 @@ div.linea1 {
     margin-bottom: 20px;
     float: left;
 }
+
+/*arturo comprobando cambios*/
 
 div.linea1-1 {
     width: 100%;
