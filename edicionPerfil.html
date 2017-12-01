@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar tu Perfil</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
@@ -41,22 +42,29 @@
             <h3 class="izqEdicion verde">Tu Perfil</h3>
             <h3 class="drcEdicion verde">Editar Información</h3>
         </div>
+    </main>
+</div>
 
-        <div class="wrapper"> 
-        <label for="username" class="registro">Pepito24</label>   
-        <input type="text" maxlength="20" placeholder="Nuevo Username" name="username" class="registro2" />
+    <div class="wrapper"> 
+      
+        <form action="register.php" method="get">
+        
+            <label for="username" class="registro">Pepito24</label>   
+            <input type="text" maxlength="20" placeholder="Nuevo Username" name="username" class="registro2" />
  
-        <label for="name" class="registro">Pepito Grillo</label>
-        <input type="text" placeholder="Nuevo Nombre y Apellido" name="name" class="registro2" />    
+            <label for="name" class="registro">Pepito Grillo</label>
+            <input type="text" placeholder="Nuevo Nombre y Apellido" name="name" class="registro2" />    
 
-        <span class="registro3">Preferencias</span>
+            <span class="registro3">Preferencias</span>
 
         <div class="registro3">
 
-        <label for="preferencias">Moda</label>
-        <input type="checkbox" id="checkbox" name="checkbox" value="1" /> <label for="preferencias">Deporte</label>
-        <input type="checkbox" id="checkbox" name="checkbox" value="1" /> <label for="preferencias">Electrónica</label>
-        <input type="checkbox" id="checkbox" name="checkbox" value="1" />     
+            <label for="preferencias">Moda</label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="1" /> 
+            
+            <label for="preferencias">Deporte</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="1" /> <label for="preferencias">Electrónica</label>
+            <input type="checkbox" id="checkbox3" name="checkbox3" value="1" />     
 
         </div> 
 
@@ -70,11 +78,11 @@
         <input type="file" name="pic" accept="image/*" class="registro2" />   
 
 
-        <input type="submit" class="iconoRegistro" />       
+        <input type="submit" class="iconoRegistro" />  
+    
+    </form>     
 
-        </div>
-    </main>    
-</div>  
+</div>     
 
       <footer>
         <div class="wrapper">

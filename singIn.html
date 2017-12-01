@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     
@@ -34,36 +35,41 @@
                 
             </div>
         </div>
-    </header>
+</header>
+
+
 <main>
-        <nav class="wrapper">
+    <div class="wrapper">
         <h1>Iniciar Sesión</h1>
-    </nav>
+    </div>
 
-    <nav class="wrapper">
-    <form action="indexprivado.html" method="post">
+    <div class="wrapper">
+        <form action="indexprivado.html" method="get">
     
-    <strong><label for="username" class="registro">Username</label></strong>    
-    <input type="text" maxlength="20" placeholder="Username" name="username" class="registro2" required />
+            <strong><label for="username" class="registro">Username</label></strong>    
+            <input type="text" maxlength="20" placeholder="Username" name="username" class="registro2" required />
 
 
-    <strong><label for="email" class="registro">Email</label></strong>
-    <input type="email" name="email" placeholder="email" class="registro2" /> 
+            <strong><label for="email" class="registro">Email</label></strong>
+            <input type="email" name="email" placeholder="email" class="registro2" /> 
  
-    <strong><label for="password" class="registro">Contraseña</label></strong>
-    <input type="password" name="userpass" maxlength="20" placeholder="Contraseña" class="registro2" required />
+            <strong><label for="password" class="registro">Contraseña</label></strong>
+            <input type="password" name="userpass" maxlength="20" placeholder="Contraseña" class="registro2" required />
 
-    <a href="correo.html" class="registro3 verde centrar">Olvidé mi contraseña</a>
-    <a href="singUp.html" class="registro3 verde centrar">Registrarme ahora</a>
-    <em class="check"><label for="check">Recordar contraseña</label>
-    <input type="checkbox" id="check" name="check" value="1"  /></em>
+            <a href="correo.html" class="registro3 verde centrar">Olvidé mi contraseña</a>
+    
+            <a href="singUp.html" class="registro3 verde centrar">Registrarme ahora</a>
+            <em class="check"><label for="check">Recordar contraseña</label>
+                <input type="checkbox" id="check" name="check" value="1"  /></em>
       
 
-
-    <input type="submit" class="iconoRegistro" /> 
-    </form>
-    </nav>
+            <input type="submit" class="iconoRegistro" /> 
+            
+        </form>
+    </div>
 </main>
+ 
+ 
   <footer>
         <div class="wrapper">
             <div class="pie">
